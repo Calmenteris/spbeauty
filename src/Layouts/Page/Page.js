@@ -7,7 +7,7 @@ function Page() {
       <Header/>
       <div className='container'>  {/* Bootstrap контейнер */}
         <AboutCompany/>  {/* Страница выбирается нажатием на сайдбаре. Сейчас это только AboutCOmpany. */}
-      </div>
+      </div> 
     </div>
   );
 }

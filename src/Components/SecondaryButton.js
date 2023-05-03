@@ -10,9 +10,9 @@ function SecondaryButton(props) {
         border-radius: 24px;
         box-shadow: inset 0px 1px 2px rgba(10, 15, 26, 0.08);
         min-width: ${minWidth};
-        color: #152842;
+        color: #64748B;
         &:hover {
-            background: linear-gradient(180deg, #DFEAF1 0%, #CFDDE8 100%);
+            background: #F9F9F9;
         }
         &:active {
             background: #DFDFDF;

@@ -10,12 +10,12 @@ const WrapperInput = styled.div`
 const Input = styled.input`
     outline: none;
     border-radius: 24px;
-    border: 1px solid #E2E8F0;
+    border: solid #E2E8F0 1px;
     background-color: #F8FAFC;
-    color: #152842;
+    color: #94A3B8;
     width: 100%;
     &:hover {
-        background: linear-gradient(180deg, #DFEAF1 0%, #CFDDE8 100%);
+        background: #F8FAFC;
     }
     &:focus {
         background: white;
@@ -25,7 +25,7 @@ const Input = styled.input`
 const SearchIconWrapper = styled.div`
     position: absolute;
     box-sizing:order-box;
-    right: 5px;  /* Здесь можно добавить отступ от правого края, чтобы сдвинуть иконку левее */
+    right: 16px;  /* Здесь можно добавить отступ от правого края, чтобы сдвинуть иконку левее */
     top:50%;
     transform: translateY(-50%);
 `;
